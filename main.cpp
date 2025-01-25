@@ -1,4 +1,10 @@
-#include <winsock2.h>    // (windows compatible only)
+/*
+// windows compatible only,
+// must be compiled with -lws2_32 flag or other
+// based on your devices architecture
+*/
+
+#include <winsock2.h>
 #include <iostream>
 #pragma comment(lib, "ws2_32.lib")
 
