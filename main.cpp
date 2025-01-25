@@ -1,4 +1,4 @@
-#include <winsock2.h>
+#include <winsock2.h>    // (windows compatible only)
 #include <iostream>
 #pragma comment(lib, "ws2_32.lib")
 
