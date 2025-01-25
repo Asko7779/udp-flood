@@ -19,7 +19,7 @@ int main() {
 
     target.sin_family = AF_INET;
 
-    // target port and IP, can be adjusted
+    //target port and IP, can be adjusted
     
     target.sin_port = htons(8080);                      
     target.sin_addr.s_addr = inet_addr("127.0.0.1");
